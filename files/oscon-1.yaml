@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    app: oscon-1
+  name: oscon-1
+spec:
+  containers:
+  - image: oscon-1
+    name: tripster98/oscon-1
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+
